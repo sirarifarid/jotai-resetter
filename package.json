@@ -7,6 +7,9 @@
   "scripts": {
     "build": "tsup"
   },
+  "repository": {
+    "url": "https://github.com/sirarifarid/jotai-resetter"
+  },
   "author": "",
   "license": "MIT",
   "description": "",
