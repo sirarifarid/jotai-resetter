@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "outDir": "dist",
+    "noEmit": true,
+    "target": "ES2022"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
