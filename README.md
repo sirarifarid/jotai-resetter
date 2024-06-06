@@ -29,4 +29,24 @@ const reset = useResetJotai();
 reset();
 ```
 
+### With Next.js
+
+To use `jotai-resetter` with next.js you have to first make a `CSR` for that
+
+```javascript
+// provider.jsx
+"use client";
+import { ResetProvider } from "jotai-resetter";
+
+export const Provider = ({ children }) => (
+  <ResetProvider>{children}</ResetProvider>
+);
+```
+
+Now use this new `<Provider/>` to wrap your app.
+
+#### Available props
+
+Supports all the native props of `<Provider/>` from `jotai`
+
 That's it now your jotai atoms will be in default state
