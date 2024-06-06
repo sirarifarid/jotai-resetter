@@ -9,6 +9,7 @@ export default defineConfig({
   outDir: "./dist",
   skipNodeModulesBundle: true,
   treeshake: true,
-  sourcemap: "inline",
   minify: true,
+  minifySyntax: true,
+  minifyWhitespace: true,
 });
