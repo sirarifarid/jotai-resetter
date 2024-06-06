@@ -8,9 +8,9 @@ import {
 } from "react";
 const ResetContext = createContext<CallableFunction>(() => {});
 
-export const reset = 0;
+const reset = 0;
 
-export const reset_reducer = () => {
+const reset_reducer = () => {
   return Math.random();
 };
 
